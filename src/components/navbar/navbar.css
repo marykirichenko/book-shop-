@@ -1,0 +1,83 @@
+.navbar {
+    margin-top:12px;
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+    width:100%;
+}
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+}
+
+.navbar-rightcentered {
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+}
+
+.navbar-search {
+    margin-right: 10px;
+}
+
+.navbar-login {
+    margin-right: 10px; /* Add some spacing between the select and Login link */
+    margin-left: auto; /* To push the Login link to the right */
+    width:30%;
+}
+
+.navbar-rightcentered-user{
+    border: none;
+    margin-top: 10px;
+    margin-left:20px;
+    line-height: inherit;
+    width:70%;
+}
+.navbar-rightcentered-user select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    margin-left:5px;
+    padding: 0 1em 0 0;
+    outline: none;
+
+}
+
+
+
+.navbar-rightcentered-login{
+    margin-top:12px;
+    margin-right:50px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    margin-right:40px;
+    margin-left:40px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif; /* Choose your preferred font family */
+    padding: 12px 20px; /* Add some padding to the input */
+    border-radius: 4px; /* Add some border radius to round the corners */
+    border: none; /* Remove the default border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    color: #333; /* Set the text color */
+    background-color: RGB(255, 255, 247); /* Set the background color */
+    width:70%;
+}
+
+/* Add styles for when the input is focused */
+input:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a stronger shadow effect when focused */
+}
+
+hr{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-color: rgb(163, 163, 160);
+}
